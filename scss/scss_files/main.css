@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main_header {
+  background-color: rgb(102, 77, 77);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.main_header h1 {
+  font-family: monospace;
+  color: red;
+  letter-spacing: 1rem;
+}
+.main_header h1:hover {
+  color: rgb(0, 255, 47);
+}
+.main_header p {
+  font-family: monospace;
+  color: yellow;
+  letter-spacing: 1rem;
+}
+.main_header p:hover {
+  color: aqua;
+}/*# sourceMappingURL=main.css.map */

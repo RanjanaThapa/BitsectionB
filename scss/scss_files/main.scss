@@ -1,0 +1,39 @@
+@import "mixin";
+@import "var";
+*{
+    margin: 0;
+padding: 0;
+box-sizing:border-box;
+}
+
+
+.main_header{
+    background-color: rgb(102, 77, 77);
+    width:100vw;
+    height: 100vh;
+    @include flex_code();
+    
+    h1{
+        font-family: monospace;
+        color: $color;
+        @include letter_spacing_code();
+        letter-spacing: 1rem;
+        &:hover{ color: rgb(0, 255, 47);
+        }
+    }
+    
+
+    p{
+        font-family: monospace;
+        color:$color1;
+        @include letter_spacing_code();
+        letter-spacing: 1.5rem;
+
+        
+    &:hover{
+        color: aqua;
+    }
+    }
+
+    
+}

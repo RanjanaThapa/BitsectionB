@@ -1,0 +1,30 @@
+h1{
+    color: aqua;
+    border: 5px;
+    text-transform: capitalize;
+ font-family:'Times New Roman', Times, serif ;
+    text-align: center;
+}
+p{
+    color: coral;
+    border-radius: 10px;
+    padding:5px 10px 10px 10px solid black;
+    background-color: chartreuse;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+     
+    background-color: rgb(96, 96, 213,0.72);
+}
+body{
+    background-color: blueviolet;
+  align-items: center;
+}
+#inner{
+font-size: 25px;
+}
+#outer{
+    font-size: 10px;
+    }
